@@ -84,10 +84,10 @@
       const lang = document.getElementById('languageSelect').value;
       if (lang === 'ru') {
         document.getElementById('openLinkBtn').textContent = 'Открыть';
-        document.querySelector('h1').textContent = 'Жми на кнопку там 18+';
+        document.querySelector('h1').textContent = 'Жми на кнопку там ';
       } else {
         document.getElementById('openLinkBtn').textContent = 'Open';
-        document.querySelector('h1').textContent = 'Click on the 18+ button';
+        document.querySelector('h1').textContent = 'Click on the  button';
       }
     }
 
