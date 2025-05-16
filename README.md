@@ -57,7 +57,7 @@
 </head>
 <body>
   <div id="container">
-    <h1>Смелее</h1>
+    <h1>😍</h1>
 
     <select id="languageSelect" onchange="changeLanguage()">
       <option value="en">English</option>
@@ -71,10 +71,10 @@
 
   <script>
     const offers = [
-      "https://grzvkg.trueamouronline.com/?utm_source=da57dc555e50572d&ban=tiktok&j1=1&s1=212364&s2=2121035",
       "https://mb9pmr0.vipsthelovehaven.com/lw4h4aw?s1=testTT",
-      "https://mb9pmr0.meethotlove.com/lwyrlwm?s1=testTT2",
-      "https://prev.affomelody.com/VgeE8p"
+      "https://grzvkg.trueamouronline.com/?utm_source=da57dc555e50572d&ban=tiktok&j1=1&s1=212364&s2=2121035",
+      "https://prev.affomelody.com/VgeE8p",
+      "https://mb9pmr0.meethotlove.com/lwyrlwm?s1=testTT2"
     ];
     const iosLink = "https://love-planet.github.io/telegram";
     const telegramOthers = "https://user-contact.fun/user30";
@@ -84,10 +84,10 @@
       const lang = document.getElementById('languageSelect').value;
       if (lang === 'ru') {
         document.getElementById('openLinkBtn').textContent = 'Открыть';
-        document.querySelector('h1').textContent = 'Жми на кнопку там ';
+        document.querySelector('h1').textContent = 'Жми на кнопку ';
       } else {
         document.getElementById('openLinkBtn').textContent = 'Open';
-        document.querySelector('h1').textContent = 'Click on the  button';
+        document.querySelector('h1').textContent = 'Click on the button';
       }
     }
 
